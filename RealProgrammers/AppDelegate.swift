@@ -12,10 +12,24 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    let storyBoardName = "Main"
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let storyboard = UIStoryboard(name: storyBoardName, bundle: nil)
+        let navigationController = storyboard.instantiateInitialViewController() as! UINavigationController
+        let tableViewController = navigationController.topViewController as! ProgrammersTableViewController
+        let entityGateway = InMemoryRepo()
+        let useCase = showProgrammersListUseCase(entityGateway: entityGateway)
+        let presenter = ProgrammersListPresenter(useCase: useCase)
+        useCase.presenter = presenter
+        tableViewController.presenter = presenter
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = navigationController
+        window?.makeKeyAndVisible()
+        
         return true
     }
 

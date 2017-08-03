@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		CBEA544A1EE05E2B00FB7F5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEA54491EE05E2B00FB7F5B /* AppDelegate.swift */; };
-		CBEA544C1EE05E2B00FB7F5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEA544B1EE05E2B00FB7F5B /* ViewController.swift */; };
 		CBEA544F1EE05E2B00FB7F5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBEA544D1EE05E2B00FB7F5B /* Main.storyboard */; };
 		CBEA54511EE05E2B00FB7F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBEA54501EE05E2B00FB7F5B /* Assets.xcassets */; };
 		CBEA54541EE05E2B00FB7F5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBEA54521EE05E2B00FB7F5B /* LaunchScreen.storyboard */; };
+		CBEA545C1EE05E6F00FB7F5B /* Programmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEA545B1EE05E6F00FB7F5B /* Programmer.swift */; };
+		CBEA545E1EE0608400FB7F5B /* showProgrammersListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEA545D1EE0608400FB7F5B /* showProgrammersListUseCase.swift */; };
+		CBEA54601EE0649D00FB7F5B /* EntityGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEA545F1EE0649D00FB7F5B /* EntityGateway.swift */; };
+		CBEA54621EE066B400FB7F5B /* ProgrammerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEA54611EE066B400FB7F5B /* ProgrammerResponse.swift */; };
+		CBEA54641EE068D900FB7F5B /* ProgrammersListPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEA54631EE068D900FB7F5B /* ProgrammersListPresentation.swift */; };
+		CBEA54661EE06A0000FB7F5B /* ProgrammersListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEA54651EE06A0000FB7F5B /* ProgrammersListPresenter.swift */; };
+		CBEA54681EE06C2400FB7F5B /* ProgrammersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEA54671EE06C2400FB7F5B /* ProgrammersTableViewController.swift */; };
+		CBEA546A1EE070CE00FB7F5B /* ProgrammerCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEA54691EE070CE00FB7F5B /* ProgrammerCellView.swift */; };
+		CBEA546C1EE071B900FB7F5B /* ProgrammerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEA546B1EE071B900FB7F5B /* ProgrammerTableViewCell.swift */; };
+		CBEA546E1EE0741100FB7F5B /* InMemoryRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEA546D1EE0741100FB7F5B /* InMemoryRepo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CBEA54461EE05E2B00FB7F5B /* RealProgrammers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealProgrammers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBEA54491EE05E2B00FB7F5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CBEA544B1EE05E2B00FB7F5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CBEA544E1EE05E2B00FB7F5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBEA54501EE05E2B00FB7F5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBEA54531EE05E2B00FB7F5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBEA54551EE05E2B00FB7F5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBEA545B1EE05E6F00FB7F5B /* Programmer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Programmer.swift; sourceTree = "<group>"; };
+		CBEA545D1EE0608400FB7F5B /* showProgrammersListUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showProgrammersListUseCase.swift; sourceTree = "<group>"; };
+		CBEA545F1EE0649D00FB7F5B /* EntityGateway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityGateway.swift; sourceTree = "<group>"; };
+		CBEA54611EE066B400FB7F5B /* ProgrammerResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgrammerResponse.swift; sourceTree = "<group>"; };
+		CBEA54631EE068D900FB7F5B /* ProgrammersListPresentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgrammersListPresentation.swift; sourceTree = "<group>"; };
+		CBEA54651EE06A0000FB7F5B /* ProgrammersListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgrammersListPresenter.swift; sourceTree = "<group>"; };
+		CBEA54671EE06C2400FB7F5B /* ProgrammersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgrammersTableViewController.swift; sourceTree = "<group>"; };
+		CBEA54691EE070CE00FB7F5B /* ProgrammerCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgrammerCellView.swift; sourceTree = "<group>"; };
+		CBEA546B1EE071B900FB7F5B /* ProgrammerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgrammerTableViewCell.swift; sourceTree = "<group>"; };
+		CBEA546D1EE0741100FB7F5B /* InMemoryRepo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryRepo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +73,20 @@
 			isa = PBXGroup;
 			children = (
 				CBEA54491EE05E2B00FB7F5B /* AppDelegate.swift */,
-				CBEA544B1EE05E2B00FB7F5B /* ViewController.swift */,
 				CBEA544D1EE05E2B00FB7F5B /* Main.storyboard */,
 				CBEA54501EE05E2B00FB7F5B /* Assets.xcassets */,
 				CBEA54521EE05E2B00FB7F5B /* LaunchScreen.storyboard */,
 				CBEA54551EE05E2B00FB7F5B /* Info.plist */,
+				CBEA545B1EE05E6F00FB7F5B /* Programmer.swift */,
+				CBEA545D1EE0608400FB7F5B /* showProgrammersListUseCase.swift */,
+				CBEA545F1EE0649D00FB7F5B /* EntityGateway.swift */,
+				CBEA54611EE066B400FB7F5B /* ProgrammerResponse.swift */,
+				CBEA54631EE068D900FB7F5B /* ProgrammersListPresentation.swift */,
+				CBEA54651EE06A0000FB7F5B /* ProgrammersListPresenter.swift */,
+				CBEA54671EE06C2400FB7F5B /* ProgrammersTableViewController.swift */,
+				CBEA54691EE070CE00FB7F5B /* ProgrammerCellView.swift */,
+				CBEA546B1EE071B900FB7F5B /* ProgrammerTableViewCell.swift */,
+				CBEA546D1EE0741100FB7F5B /* InMemoryRepo.swift */,
 			);
 			path = RealProgrammers;
 			sourceTree = "<group>";
@@ -137,7 +164,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBEA544C1EE05E2B00FB7F5B /* ViewController.swift in Sources */,
+				CBEA54621EE066B400FB7F5B /* ProgrammerResponse.swift in Sources */,
+				CBEA546C1EE071B900FB7F5B /* ProgrammerTableViewCell.swift in Sources */,
+				CBEA545E1EE0608400FB7F5B /* showProgrammersListUseCase.swift in Sources */,
+				CBEA54641EE068D900FB7F5B /* ProgrammersListPresentation.swift in Sources */,
+				CBEA54661EE06A0000FB7F5B /* ProgrammersListPresenter.swift in Sources */,
+				CBEA546E1EE0741100FB7F5B /* InMemoryRepo.swift in Sources */,
+				CBEA545C1EE05E6F00FB7F5B /* Programmer.swift in Sources */,
+				CBEA546A1EE070CE00FB7F5B /* ProgrammerCellView.swift in Sources */,
+				CBEA54681EE06C2400FB7F5B /* ProgrammersTableViewController.swift in Sources */,
+				CBEA54601EE0649D00FB7F5B /* EntityGateway.swift in Sources */,
 				CBEA544A1EE05E2B00FB7F5B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
